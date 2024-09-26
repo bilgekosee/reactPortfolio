@@ -12,13 +12,14 @@ const About = () => {
         <div className="about-container-left">
           <div className="about-item">
             <div className="about-text">
-              <h2>2018-2022</h2>
-              <h3>University</h3>
+              <h2>June 2020- Aug 2020</h2>
+              <h3>Toyota (Intern)</h3>
               <h4>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
-                ut voluptatum eius sapiente, totam reiciendis temporibus qui
-                quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
-                dolore laudantium consectetur!
+                Completed a 30-day internship at Toyota, gaining hands-on
+                experience in car maintenance and design.Involved in software
+                and mechanical design using tools like SolidWorks, AutoCAD,
+                Siemens NX, and Catia. Developed strong knowledge of car parts
+                and their functions.
               </h4>
             </div>
             <div
@@ -36,12 +37,15 @@ const About = () => {
             ></div>
             <div className="about-text">
               <h2>2018-2022</h2>
-              <h3>University</h3>
+              <h3>Graduation (Necmettin Erbakan University)</h3>
               <h4>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
-                ut voluptatum eius sapiente, totam reiciendis temporibus qui
-                quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
-                dolore laudantium consectetur!
+                I graduated from Necmettin Erbakan University with a degree in
+                Mechatronics Engineering, where I gained comprehensive knowledge
+                of both hardware and software systems. My coursework included a
+                strong emphasis on programming, control systems, and automation
+                technologies, allowing me to develop a solid foundation in
+                software development alongside mechanical and electronic
+                integration.
               </h4>
             </div>
           </div>
@@ -49,13 +53,16 @@ const About = () => {
         <div className="about-container-left">
           <div className="about-item">
             <div className="about-text">
-              <h2>2018-2022</h2>
-              <h3>University</h3>
+              <h2>2023-2024</h2>
+              <h3>Yapı Kredi Teknoloji (Intern)</h3>
               <h4>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
-                ut voluptatum eius sapiente, totam reiciendis temporibus qui
-                quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
-                dolore laudantium consectetur!
+                During my time at Yapı Kredi Technology, I developed and
+                maintained user interfaces using React.js, focusing on improving
+                performance and code readability. I played an active role in the
+                design and development of software architecture, gaining
+                valuable experience in API integration and data management
+                processes. This position allowed me to strengthen my front-end
+                development skills and work with industry best practices.
               </h4>
             </div>
             <div
@@ -67,18 +74,19 @@ const About = () => {
 
         <div className="about-container-right">
           <div className="about-item">
-            <div
-              className="circle"
-              style={{ backgroundImage: `url(${img4})` }}
-            ></div>
+            <a href="/cv/Bilge_Kose_CV.pdf" download="Bilge_Kose_CV">
+              <div
+                className="circle"
+                style={{ backgroundImage: `url(${img4})` }}
+              ></div>
+            </a>
+
             <div className="about-text">
-              <h2>2018-2022</h2>
-              <h3>University</h3>
+              <h2>For More Details</h2>
+              <h3>Resume</h3>
               <h4>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
-                ut voluptatum eius sapiente, totam reiciendis temporibus qui
-                quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
-                dolore laudantium consectetur!
+                For more information, you can download my CV by clicking the
+                image on the side
               </h4>
             </div>
           </div>
