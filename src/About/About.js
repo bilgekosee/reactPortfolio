@@ -76,7 +76,7 @@ const About = () => {
           <div className="about-item">
             <a href="/cv/Bilge_Kose_CV.pdf" download="Bilge_Kose_CV">
               <div
-                className="circle"
+                className="circleResume"
                 style={{ backgroundImage: `url(${img4})` }}
               ></div>
             </a>

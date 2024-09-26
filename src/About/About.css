@@ -8,6 +8,20 @@
   border: 5px solid #fcd5ceb6;
   margin-right: 20px;
 }
+.circleResume {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border: 5px solid #fcd5ceb6;
+  margin-right: 20px;
+}
+.circleResume:hover {
+  transform: scale(1.1); /* Hafif bir büyütme efekti */
+  border-color: #fca5b6;
+}
 .about-container {
   display: flex;
   flex-direction: column;
