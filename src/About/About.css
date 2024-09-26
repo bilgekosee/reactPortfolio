@@ -19,7 +19,7 @@
   margin-right: 20px;
 }
 .circleResume:hover {
-  transform: scale(1.1); /* Hafif bir büyütme efekti */
+  transform: scale(1.1);
   border-color: #fca5b6;
 }
 .about-container {
@@ -47,7 +47,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 50%; /* Öğelerin toplam genişliği. Bunu ayarlayarak elemanların yayılmasını kontrol edebilirsin */
+  width: 50%;
   max-width: 1200px;
 }
 .about-text .circle {
@@ -56,7 +56,7 @@
 
 .about-text {
   flex: 1;
-  margin-right: 20px; /* Metin ile yuvarlak arasında boşluk */
+  margin-right: 20px;
   text-align: left;
 }
 
