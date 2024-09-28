@@ -54,7 +54,7 @@ function Navbar() {
               <a href="#skills">Skills</a>
             </li>
             <li>
-              <a href="#">Contacts</a>
+              <a href="#footer">Contacts</a>
             </li>
           </ul>
           <div
