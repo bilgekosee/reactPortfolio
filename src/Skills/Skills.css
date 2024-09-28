@@ -7,9 +7,10 @@
   align-items: center;
   flex-direction: column;
 }
-li {
-  list-style-type: circle;
+ul {
+  list-style-type: none;
 }
+
 .skills-container {
   width: 550px;
   height: 350px;
@@ -37,6 +38,11 @@ li {
   align-items: flex-start;
   display: grid;
   row-gap: 1rem;
+  li::before {
+    content: "\2713";
+    margin-right: 10px;
+    color: green;
+  }
 }
 .skills_allontainer {
   display: flex;
@@ -47,4 +53,26 @@ li {
 .container-end {
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 750px) {
+  .skills_allontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 250px;
+
+    margin-left: 50px;
+  }
+  .skills-container {
+    width: 250px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+  }
+  .container-end {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 75px;
+    margin-top: 200px;
+  }
 }
