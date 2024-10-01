@@ -59,9 +59,9 @@ ul {
   .skills_allontainer {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 250px;
-
-    margin-left: 50px;
   }
   .skills-container {
     width: 250px;
@@ -70,9 +70,13 @@ ul {
   }
   .container-end {
     display: flex;
-    flex-direction: column;
-
-    margin-left: 75px;
+    justify-content: center;
     margin-top: 200px;
+    margin-bottom: 400px;
+  }
+  .skills-id-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }

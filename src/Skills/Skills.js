@@ -2,7 +2,7 @@ import React from "react";
 import "./Skills.css";
 const Skills = () => {
   return (
-    <section id="skills">
+    <section id="skills" className="skills-id-container">
       <div className="skills-titles">
         <h2 className="project_title">Skills</h2>
         <span className="skills_subtitle">My Technical Level</span>

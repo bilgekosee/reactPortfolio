@@ -287,3 +287,17 @@ a:hover {
 .footer-copy-text {
   margin-bottom: 10px;
 }
+
+@media (max-width: 830px) {
+  .contentfooter {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 415px) {
+  .contact-form {
+    .inputBox {
+      width: 300px;
+    }
+  }
+}
