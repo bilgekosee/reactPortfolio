@@ -1,0 +1,289 @@
+body .footer .contentfooter {
+  padding: 1rem 2rem;
+  background: #fff1e683;
+  z-index: 2;
+}
+.footer .contentfooter .container {
+  max-width: 768px;
+  margin: 0 auto;
+  display: grid;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+.footer .contentfooter .container2 {
+  max-width: 768px;
+  margin: 0 auto;
+  display: grid;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.contentfooter {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.contentfooter h2 {
+  margin-bottom: 0.25rem;
+  font-size: 2.25rem;
+}
+
+.contentfooter span {
+  font-size: 0.975rem;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__socials {
+  display: flex;
+  justify-content: space-around;
+  color: #393c2e;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+.footer__socials {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.footer__socials i {
+  color: #393c2e;
+}
+
+.footer__socials i:hover {
+  color: #c75d0c83;
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 767px) {
+  .footer .contentfooter {
+    padding: 0 1.5rem;
+  }
+  .footer .contentfooter .container {
+    grid-template-columns: repeat(1, 5fr);
+  }
+
+  .contentfooter h2 {
+    font-size: 1.5rem;
+  }
+
+  .contentfooter span {
+    font-size: 0.813rem;
+  }
+
+  .footer__links {
+    flex-direction: column;
+    row-gap: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .footer .contentfooter {
+    display: flex;
+
+    overflow: hidden;
+    flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.footer .contentfooter .container {
+  max-width: 768px;
+  margin: 0 auto;
+  display: grid;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.inputBox {
+  position: relative;
+
+  width: 400px;
+  margin: 5px;
+}
+.inputBox input {
+  width: 100%;
+
+  padding: 10px;
+
+  border: 1px solid rgb(255, 255, 255, 0.7);
+
+  background: #c75d0c83;
+
+  border-radius: 5px;
+
+  outline: none;
+
+  color: #000000;
+
+  font-size: 1em;
+
+  transition: 0.5s;
+}
+
+.inputBox span {
+  position: absolute;
+
+  left: 0;
+
+  padding: 10px;
+
+  pointer-events: none;
+
+  font-size: 1.1em;
+
+  letter-spacing: 0.2em;
+
+  color: rgba(255, 255, 255, 0.7);
+
+  text-transform: uppercase;
+
+  transition: 0.5s;
+}
+
+.inputBox input:valid ~ span,
+.inputBox input:focus ~ span {
+  color: #ffffff;
+
+  transform: translateX(10px) translateY(-7px);
+
+  font-size: 0.65em;
+
+  padding: 0 5px;
+
+  background: #6b705c;
+
+  border-left: 1px solid #e7e7e7;
+
+  border-right: 1px solid #ffffff;
+
+  letter-spacing: 0.2em;
+}
+
+.inputBox:nth-child(2) input:valid ~ span,
+.inputBox:nth-child(2) input:focus ~ span {
+  background: #6b705c;
+
+  color: rgb(250, 250, 250);
+
+  border-radius: 2px;
+}
+
+.inputBox input:valid,
+.inputBox input:focus {
+  border: 1px solid #e0e0e0;
+}
+.my-footerbtn {
+  padding: 10px 20px;
+  background-color: #3498db00;
+  border: 2px solid white;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  transition: background-color 0.3s ease;
+}
+
+/* .my-footerbtn düğmesine fare üzerine gelindiğinde stil değişikliği */
+.my-footerbtn:hover {
+  background-color: rgba(56, 57, 51, 0.583);
+}
+
+/* .my-footerbtn düğmesi aktif olduğunda (tıklanırken) stil değişikliği */
+.my-footerbtn:active {
+  background-color: #393c2e;
+}
+.my-footerbtn {
+  background-color: #6b705c;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid #c75d0c83;
+  border-radius: 4px;
+  background-color: #f8f8f800;
+  color: rgb(0, 0, 0);
+  resize: none;
+}
+textarea::placeholder {
+  color: white;
+}
+.upwork-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.upwork-container-iletisim {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.upwork {
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px 0px 0px 10px;
+}
+.upwork-text {
+  background-color: #b4a6a63d;
+  border-radius: 0px 10px 10px 0px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.up-all-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.upwork-text a {
+  text-decoration: none;
+  color: #7f5539;
+}
+.upwork-text a:hover {
+  color: #eaaca1;
+}
+
+a:link {
+  text-decoration: none;
+  color: #7f5539;
+}
+a:active {
+  color: #7f5539;
+}
+a:hover {
+  color: #eaaca1;
+}
+.footer__copy {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 40x;
+  background-color: #fff1e683;
+  color: #7f5539;
+  font-size: 10px;
+  font-weight: 600;
+}
+.footer-copy-text {
+  margin-bottom: 10px;
+}
